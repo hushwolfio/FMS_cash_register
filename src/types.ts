@@ -1,0 +1,1 @@
+export type Denominations = Record<string, number>

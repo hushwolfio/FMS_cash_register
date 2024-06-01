@@ -1,0 +1,3753 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CashRegister > should dispense change 1`] = `
+<div>
+  <style
+    data-mantine-styles="classes"
+  >
+    @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+  </style>
+  <div
+    class="m_6d731127 mantine-Stack-root"
+    style="--stack-gap: var(--mantine-spacing-md); --stack-align: stretch; --stack-justify: flex-start;"
+  >
+    <div
+      class="m_8bffd616 mantine-Flex-root __m__-r1n"
+      style="gap: var(--mantine-spacing-sm); align-items: center; justify-content: center; flex-direction: row;"
+    >
+      <p
+        class="mantine-focus-auto m_b6d8b162 mantine-Text-root"
+      >
+        Cash Register Total: $
+        0
+      </p>
+      <p
+        class="mantine-focus-auto m_b6d8b162 mantine-Text-root"
+        style="font-weight: 500;"
+      >
+        0x$1 0x$2 0x$5 0x$10 0x$20
+      </p>
+    </div>
+    <div
+      class="m_8bffd616 mantine-Flex-root __m__-r1r"
+      style="gap: var(--mantine-spacing-md); justify-content: center; flex-wrap: wrap; flex-direction: row;"
+    >
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-wdxcr00sh"
+          id="mantine-wdxcr00sh-label"
+        >
+          Add/Remove $1
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-wdxcr00sh"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-0gqa6qfra"
+          id="mantine-0gqa6qfra-label"
+        >
+          Add/Remove $2
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-0gqa6qfra"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-j0lernpkl"
+          id="mantine-j0lernpkl-label"
+        >
+          Add/Remove $5
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-j0lernpkl"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-yzm5wvqg2"
+          id="mantine-yzm5wvqg2-label"
+        >
+          Add/Remove $10
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-yzm5wvqg2"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-yw73iwleb"
+          id="mantine-yw73iwleb-label"
+        >
+          Add/Remove $20
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-yw73iwleb"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="m_7485cace mantine-Container-root"
+      data-size="md"
+      style="--container-size: var(--container-size-md);"
+    >
+      <div
+        class="m_8bffd616 mantine-Flex-root __m__-r31"
+        style="gap: var(--mantine-spacing-sm); align-items: center; justify-content: flex-start; flex-direction: column;"
+      >
+        <div
+          class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        >
+          <label
+            class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+            for="mantine-4rxny4z07"
+            id="mantine-4rxny4z07-label"
+          >
+            Dispense Change
+          </label>
+          <div
+            class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+            data-variant="default"
+            data-with-right-section="true"
+            style="--input-right-section-width: var(--ni-right-section-width-sm);"
+          >
+            <input
+              aria-invalid="false"
+              class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+              data-variant="default"
+              id="mantine-4rxny4z07"
+              inputmode="numeric"
+              type="text"
+              value="0"
+            />
+            <div
+              class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+              data-position="right"
+            >
+              <div
+                class="m_95e17d22 mantine-NumberInput-controls"
+              >
+                <button
+                  aria-hidden="true"
+                  class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                  data-direction="up"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <svg
+                    fill="none"
+                    style="transform: rotate(180deg);"
+                    viewBox="0 0 15 15"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+                <button
+                  aria-hidden="true"
+                  class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                  data-direction="down"
+                  disabled=""
+                  tabindex="-1"
+                  type="button"
+                >
+                  <svg
+                    fill="none"
+                    viewBox="0 0 15 15"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="mantine-focus-auto mantine-active m_77c9d27d mantine-Button-root m_87cf2631 mantine-UnstyledButton-root"
+          style="--button-color: var(--mantine-color-white);"
+          type="button"
+        >
+          <span
+            class="m_80f1301b mantine-Button-inner"
+          >
+            <span
+              class="m_811560b9 mantine-Button-label"
+            >
+              Dispense
+            </span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CashRegister > should dispense change 2`] = `
+<div>
+  <style
+    data-mantine-styles="classes"
+  >
+    @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+  </style>
+  <div
+    class="m_6d731127 mantine-Stack-root"
+    style="--stack-gap: var(--mantine-spacing-md); --stack-align: stretch; --stack-justify: flex-start;"
+  >
+    <div
+      class="m_8bffd616 mantine-Flex-root __m__-r1n"
+      style="gap: var(--mantine-spacing-sm); align-items: center; justify-content: center; flex-direction: row;"
+    >
+      <p
+        class="mantine-focus-auto m_b6d8b162 mantine-Text-root"
+      >
+        Cash Register Total: $
+        0
+      </p>
+      <p
+        class="mantine-focus-auto m_b6d8b162 mantine-Text-root"
+        style="font-weight: 500;"
+      >
+        0x$1 0x$2 0x$5 0x$10 0x$20
+      </p>
+    </div>
+    <div
+      class="m_8bffd616 mantine-Flex-root __m__-r1r"
+      style="gap: var(--mantine-spacing-md); justify-content: center; flex-wrap: wrap; flex-direction: row;"
+    >
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-wdxcr00sh"
+          id="mantine-wdxcr00sh-label"
+        >
+          Add/Remove $1
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-wdxcr00sh"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-0gqa6qfra"
+          id="mantine-0gqa6qfra-label"
+        >
+          Add/Remove $2
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-0gqa6qfra"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-j0lernpkl"
+          id="mantine-j0lernpkl-label"
+        >
+          Add/Remove $5
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-j0lernpkl"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-yzm5wvqg2"
+          id="mantine-yzm5wvqg2-label"
+        >
+          Add/Remove $10
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-yzm5wvqg2"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-yw73iwleb"
+          id="mantine-yw73iwleb-label"
+        >
+          Add/Remove $20
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-yw73iwleb"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="m_7485cace mantine-Container-root"
+      data-size="md"
+      style="--container-size: var(--container-size-md);"
+    >
+      <div
+        class="m_8bffd616 mantine-Flex-root __m__-r31"
+        style="gap: var(--mantine-spacing-sm); align-items: center; justify-content: flex-start; flex-direction: column;"
+      >
+        <div
+          class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        >
+          <label
+            class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+            for="mantine-4rxny4z07"
+            id="mantine-4rxny4z07-label"
+          >
+            Dispense Change
+          </label>
+          <div
+            class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+            data-variant="default"
+            data-with-right-section="true"
+            style="--input-right-section-width: var(--ni-right-section-width-sm);"
+          >
+            <input
+              aria-invalid="false"
+              class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+              data-variant="default"
+              id="mantine-4rxny4z07"
+              inputmode="numeric"
+              type="text"
+              value="0"
+            />
+            <div
+              class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+              data-position="right"
+            >
+              <div
+                class="m_95e17d22 mantine-NumberInput-controls"
+              >
+                <button
+                  aria-hidden="true"
+                  class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                  data-direction="up"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <svg
+                    fill="none"
+                    style="transform: rotate(180deg);"
+                    viewBox="0 0 15 15"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+                <button
+                  aria-hidden="true"
+                  class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                  data-direction="down"
+                  disabled=""
+                  tabindex="-1"
+                  type="button"
+                >
+                  <svg
+                    fill="none"
+                    viewBox="0 0 15 15"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="mantine-focus-auto mantine-active m_77c9d27d mantine-Button-root m_87cf2631 mantine-UnstyledButton-root"
+          style="--button-color: var(--mantine-color-white);"
+          type="button"
+        >
+          <span
+            class="m_80f1301b mantine-Button-inner"
+          >
+            <span
+              class="m_811560b9 mantine-Button-label"
+            >
+              Dispense
+            </span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CashRegister > should dispense change 3`] = `
+<div>
+  <style
+    data-mantine-styles="classes"
+  >
+    @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+  </style>
+  <div
+    class="m_6d731127 mantine-Stack-root"
+    style="--stack-gap: var(--mantine-spacing-md); --stack-align: stretch; --stack-justify: flex-start;"
+  >
+    <div
+      class="m_8bffd616 mantine-Flex-root __m__-r1n"
+      style="gap: var(--mantine-spacing-sm); align-items: center; justify-content: center; flex-direction: row;"
+    >
+      <p
+        class="mantine-focus-auto m_b6d8b162 mantine-Text-root"
+      >
+        Cash Register Total: $
+        0
+      </p>
+      <p
+        class="mantine-focus-auto m_b6d8b162 mantine-Text-root"
+        style="font-weight: 500;"
+      >
+        0x$1 0x$2 0x$5 0x$10 0x$20
+      </p>
+    </div>
+    <div
+      class="m_8bffd616 mantine-Flex-root __m__-r1r"
+      style="gap: var(--mantine-spacing-md); justify-content: center; flex-wrap: wrap; flex-direction: row;"
+    >
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-wdxcr00sh"
+          id="mantine-wdxcr00sh-label"
+        >
+          Add/Remove $1
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-wdxcr00sh"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-0gqa6qfra"
+          id="mantine-0gqa6qfra-label"
+        >
+          Add/Remove $2
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-0gqa6qfra"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-j0lernpkl"
+          id="mantine-j0lernpkl-label"
+        >
+          Add/Remove $5
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-j0lernpkl"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-yzm5wvqg2"
+          id="mantine-yzm5wvqg2-label"
+        >
+          Add/Remove $10
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-yzm5wvqg2"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-yw73iwleb"
+          id="mantine-yw73iwleb-label"
+        >
+          Add/Remove $20
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-yw73iwleb"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="m_7485cace mantine-Container-root"
+      data-size="md"
+      style="--container-size: var(--container-size-md);"
+    >
+      <div
+        class="m_8bffd616 mantine-Flex-root __m__-r31"
+        style="gap: var(--mantine-spacing-sm); align-items: center; justify-content: flex-start; flex-direction: column;"
+      >
+        <div
+          class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        >
+          <label
+            class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+            for="mantine-4rxny4z07"
+            id="mantine-4rxny4z07-label"
+          >
+            Dispense Change
+          </label>
+          <div
+            class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+            data-variant="default"
+            data-with-right-section="true"
+            style="--input-right-section-width: var(--ni-right-section-width-sm);"
+          >
+            <input
+              aria-invalid="false"
+              class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+              data-variant="default"
+              id="mantine-4rxny4z07"
+              inputmode="numeric"
+              type="text"
+              value="0"
+            />
+            <div
+              class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+              data-position="right"
+            >
+              <div
+                class="m_95e17d22 mantine-NumberInput-controls"
+              >
+                <button
+                  aria-hidden="true"
+                  class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                  data-direction="up"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <svg
+                    fill="none"
+                    style="transform: rotate(180deg);"
+                    viewBox="0 0 15 15"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+                <button
+                  aria-hidden="true"
+                  class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                  data-direction="down"
+                  disabled=""
+                  tabindex="-1"
+                  type="button"
+                >
+                  <svg
+                    fill="none"
+                    viewBox="0 0 15 15"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="mantine-focus-auto mantine-active m_77c9d27d mantine-Button-root m_87cf2631 mantine-UnstyledButton-root"
+          style="--button-color: var(--mantine-color-white);"
+          type="button"
+        >
+          <span
+            class="m_80f1301b mantine-Button-inner"
+          >
+            <span
+              class="m_811560b9 mantine-Button-label"
+            >
+              Dispense
+            </span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CashRegister > should handle error 1`] = `
+<div>
+  <style
+    data-mantine-styles="classes"
+  >
+    @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+  </style>
+  <div
+    class="m_6d731127 mantine-Stack-root"
+    style="--stack-gap: var(--mantine-spacing-md); --stack-align: stretch; --stack-justify: flex-start;"
+  >
+    <div
+      class="m_8bffd616 mantine-Flex-root __m__-r3d"
+      style="gap: var(--mantine-spacing-sm); align-items: center; justify-content: center; flex-direction: row;"
+    >
+      <p
+        class="mantine-focus-auto m_b6d8b162 mantine-Text-root"
+      >
+        Cash Register Total: $
+        0
+      </p>
+      <p
+        class="mantine-focus-auto m_b6d8b162 mantine-Text-root"
+        style="font-weight: 500;"
+      >
+        0x$1 0x$2 0x$5 0x$10 0x$20
+      </p>
+    </div>
+    <div
+      class="m_8bffd616 mantine-Flex-root __m__-r3h"
+      style="gap: var(--mantine-spacing-md); justify-content: center; flex-wrap: wrap; flex-direction: row;"
+    >
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-10hfwkakl"
+          id="mantine-10hfwkakl-label"
+        >
+          Add/Remove $1
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-10hfwkakl"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-ezcqncgum"
+          id="mantine-ezcqncgum-label"
+        >
+          Add/Remove $2
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-ezcqncgum"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-bpmw5znb9"
+          id="mantine-bpmw5znb9-label"
+        >
+          Add/Remove $5
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-bpmw5znb9"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-4x7n99fx1"
+          id="mantine-4x7n99fx1-label"
+        >
+          Add/Remove $10
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-4x7n99fx1"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-67djscwsh"
+          id="mantine-67djscwsh-label"
+        >
+          Add/Remove $20
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-67djscwsh"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="m_7485cace mantine-Container-root"
+      data-size="md"
+      style="--container-size: var(--container-size-md);"
+    >
+      <div
+        class="m_8bffd616 mantine-Flex-root __m__-r4n"
+        style="gap: var(--mantine-spacing-sm); align-items: center; justify-content: flex-start; flex-direction: column;"
+      >
+        <div
+          class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        >
+          <label
+            class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+            for="mantine-3dcezqlen"
+            id="mantine-3dcezqlen-label"
+          >
+            Dispense Change
+          </label>
+          <div
+            class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+            data-variant="default"
+            data-with-right-section="true"
+            style="--input-right-section-width: var(--ni-right-section-width-sm);"
+          >
+            <input
+              aria-invalid="false"
+              class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+              data-variant="default"
+              id="mantine-3dcezqlen"
+              inputmode="numeric"
+              type="text"
+              value="0"
+            />
+            <div
+              class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+              data-position="right"
+            >
+              <div
+                class="m_95e17d22 mantine-NumberInput-controls"
+              >
+                <button
+                  aria-hidden="true"
+                  class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                  data-direction="up"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <svg
+                    fill="none"
+                    style="transform: rotate(180deg);"
+                    viewBox="0 0 15 15"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+                <button
+                  aria-hidden="true"
+                  class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                  data-direction="down"
+                  disabled=""
+                  tabindex="-1"
+                  type="button"
+                >
+                  <svg
+                    fill="none"
+                    viewBox="0 0 15 15"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="mantine-focus-auto mantine-active m_77c9d27d mantine-Button-root m_87cf2631 mantine-UnstyledButton-root"
+          style="--button-color: var(--mantine-color-white);"
+          type="button"
+        >
+          <span
+            class="m_80f1301b mantine-Button-inner"
+          >
+            <span
+              class="m_811560b9 mantine-Button-label"
+            >
+              Dispense
+            </span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CashRegister > should handle error 2`] = `
+<div>
+  <style
+    data-mantine-styles="classes"
+  >
+    @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+  </style>
+  <div
+    class="m_6d731127 mantine-Stack-root"
+    style="--stack-gap: var(--mantine-spacing-md); --stack-align: stretch; --stack-justify: flex-start;"
+  >
+    <div
+      class="m_8bffd616 mantine-Flex-root __m__-r3d"
+      style="gap: var(--mantine-spacing-sm); align-items: center; justify-content: center; flex-direction: row;"
+    >
+      <p
+        class="mantine-focus-auto m_b6d8b162 mantine-Text-root"
+      >
+        Cash Register Total: $
+        0
+      </p>
+      <p
+        class="mantine-focus-auto m_b6d8b162 mantine-Text-root"
+        style="font-weight: 500;"
+      >
+        0x$1 0x$2 0x$5 0x$10 0x$20
+      </p>
+    </div>
+    <div
+      class="m_8bffd616 mantine-Flex-root __m__-r3h"
+      style="gap: var(--mantine-spacing-md); justify-content: center; flex-wrap: wrap; flex-direction: row;"
+    >
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-10hfwkakl"
+          id="mantine-10hfwkakl-label"
+        >
+          Add/Remove $1
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-10hfwkakl"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-ezcqncgum"
+          id="mantine-ezcqncgum-label"
+        >
+          Add/Remove $2
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-ezcqncgum"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-bpmw5znb9"
+          id="mantine-bpmw5znb9-label"
+        >
+          Add/Remove $5
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-bpmw5znb9"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-4x7n99fx1"
+          id="mantine-4x7n99fx1-label"
+        >
+          Add/Remove $10
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-4x7n99fx1"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-67djscwsh"
+          id="mantine-67djscwsh-label"
+        >
+          Add/Remove $20
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-67djscwsh"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="m_7485cace mantine-Container-root"
+      data-size="md"
+      style="--container-size: var(--container-size-md);"
+    >
+      <div
+        class="m_8bffd616 mantine-Flex-root __m__-r4n"
+        style="gap: var(--mantine-spacing-sm); align-items: center; justify-content: flex-start; flex-direction: column;"
+      >
+        <div
+          class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        >
+          <label
+            class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+            for="mantine-3dcezqlen"
+            id="mantine-3dcezqlen-label"
+          >
+            Dispense Change
+          </label>
+          <div
+            class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+            data-variant="default"
+            data-with-right-section="true"
+            style="--input-right-section-width: var(--ni-right-section-width-sm);"
+          >
+            <input
+              aria-invalid="false"
+              class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+              data-variant="default"
+              id="mantine-3dcezqlen"
+              inputmode="numeric"
+              type="text"
+              value="0"
+            />
+            <div
+              class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+              data-position="right"
+            >
+              <div
+                class="m_95e17d22 mantine-NumberInput-controls"
+              >
+                <button
+                  aria-hidden="true"
+                  class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                  data-direction="up"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <svg
+                    fill="none"
+                    style="transform: rotate(180deg);"
+                    viewBox="0 0 15 15"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+                <button
+                  aria-hidden="true"
+                  class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                  data-direction="down"
+                  disabled=""
+                  tabindex="-1"
+                  type="button"
+                >
+                  <svg
+                    fill="none"
+                    viewBox="0 0 15 15"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="mantine-focus-auto mantine-active m_77c9d27d mantine-Button-root m_87cf2631 mantine-UnstyledButton-root"
+          style="--button-color: var(--mantine-color-white);"
+          type="button"
+        >
+          <span
+            class="m_80f1301b mantine-Button-inner"
+          >
+            <span
+              class="m_811560b9 mantine-Button-label"
+            >
+              Dispense
+            </span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CashRegister > should handle error 3`] = `
+<div>
+  <style
+    data-mantine-styles="classes"
+  >
+    @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+  </style>
+  <div
+    class="m_6d731127 mantine-Stack-root"
+    style="--stack-gap: var(--mantine-spacing-md); --stack-align: stretch; --stack-justify: flex-start;"
+  >
+    <div
+      class="m_8bffd616 mantine-Flex-root __m__-r3d"
+      style="gap: var(--mantine-spacing-sm); align-items: center; justify-content: center; flex-direction: row;"
+    >
+      <p
+        class="mantine-focus-auto m_b6d8b162 mantine-Text-root"
+      >
+        Cash Register Total: $
+        0
+      </p>
+      <p
+        class="mantine-focus-auto m_b6d8b162 mantine-Text-root"
+        style="font-weight: 500;"
+      >
+        0x$1 0x$2 0x$5 0x$10 0x$20
+      </p>
+    </div>
+    <div
+      class="m_8bffd616 mantine-Flex-root __m__-r3h"
+      style="gap: var(--mantine-spacing-md); justify-content: center; flex-wrap: wrap; flex-direction: row;"
+    >
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-10hfwkakl"
+          id="mantine-10hfwkakl-label"
+        >
+          Add/Remove $1
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-10hfwkakl"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-ezcqncgum"
+          id="mantine-ezcqncgum-label"
+        >
+          Add/Remove $2
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-ezcqncgum"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-bpmw5znb9"
+          id="mantine-bpmw5znb9-label"
+        >
+          Add/Remove $5
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-bpmw5znb9"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-4x7n99fx1"
+          id="mantine-4x7n99fx1-label"
+        >
+          Add/Remove $10
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-4x7n99fx1"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-67djscwsh"
+          id="mantine-67djscwsh-label"
+        >
+          Add/Remove $20
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-67djscwsh"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="m_7485cace mantine-Container-root"
+      data-size="md"
+      style="--container-size: var(--container-size-md);"
+    >
+      <div
+        class="m_8bffd616 mantine-Flex-root __m__-r4n"
+        style="gap: var(--mantine-spacing-sm); align-items: center; justify-content: flex-start; flex-direction: column;"
+      >
+        <div
+          class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        >
+          <label
+            class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+            for="mantine-3dcezqlen"
+            id="mantine-3dcezqlen-label"
+          >
+            Dispense Change
+          </label>
+          <div
+            class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+            data-variant="default"
+            data-with-right-section="true"
+            style="--input-right-section-width: var(--ni-right-section-width-sm);"
+          >
+            <input
+              aria-invalid="false"
+              class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+              data-variant="default"
+              id="mantine-3dcezqlen"
+              inputmode="numeric"
+              type="text"
+              value="0"
+            />
+            <div
+              class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+              data-position="right"
+            >
+              <div
+                class="m_95e17d22 mantine-NumberInput-controls"
+              >
+                <button
+                  aria-hidden="true"
+                  class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                  data-direction="up"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <svg
+                    fill="none"
+                    style="transform: rotate(180deg);"
+                    viewBox="0 0 15 15"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+                <button
+                  aria-hidden="true"
+                  class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                  data-direction="down"
+                  disabled=""
+                  tabindex="-1"
+                  type="button"
+                >
+                  <svg
+                    fill="none"
+                    viewBox="0 0 15 15"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="mantine-focus-auto mantine-active m_77c9d27d mantine-Button-root m_87cf2631 mantine-UnstyledButton-root"
+          style="--button-color: var(--mantine-color-white);"
+          type="button"
+        >
+          <span
+            class="m_80f1301b mantine-Button-inner"
+          >
+            <span
+              class="m_811560b9 mantine-Button-label"
+            >
+              Dispense
+            </span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CashRegister > should render 1`] = `
+<div>
+  <style
+    data-mantine-styles="classes"
+  >
+    @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+  </style>
+  <div
+    class="m_6d731127 mantine-Stack-root"
+    style="--stack-gap: var(--mantine-spacing-md); --stack-align: stretch; --stack-justify: flex-start;"
+  >
+    <div
+      class="m_8bffd616 mantine-Flex-root __m__-r1"
+      style="gap: var(--mantine-spacing-sm); align-items: center; justify-content: center; flex-direction: row;"
+    >
+      <p
+        class="mantine-focus-auto m_b6d8b162 mantine-Text-root"
+      >
+        Cash Register Total: $
+        0
+      </p>
+      <p
+        class="mantine-focus-auto m_b6d8b162 mantine-Text-root"
+        style="font-weight: 500;"
+      >
+        0x$1 0x$2 0x$5 0x$10 0x$20
+      </p>
+    </div>
+    <div
+      class="m_8bffd616 mantine-Flex-root __m__-r5"
+      style="gap: var(--mantine-spacing-md); justify-content: center; flex-wrap: wrap; flex-direction: row;"
+    >
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-ygvguojys"
+          id="mantine-ygvguojys-label"
+        >
+          Add/Remove $1
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-ygvguojys"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-13n02i7h5"
+          id="mantine-13n02i7h5-label"
+        >
+          Add/Remove $2
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-13n02i7h5"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-qleb4871k"
+          id="mantine-qleb4871k-label"
+        >
+          Add/Remove $5
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-qleb4871k"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-fmziat6u0"
+          id="mantine-fmziat6u0-label"
+        >
+          Add/Remove $10
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-fmziat6u0"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        style="width: 120px;"
+      >
+        <label
+          class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+          for="mantine-rg3d4yaws"
+          id="mantine-rg3d4yaws-label"
+        >
+          Add/Remove $20
+        </label>
+        <div
+          class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+          data-variant="default"
+          data-with-right-section="true"
+          style="--input-right-section-width: var(--ni-right-section-width-sm);"
+        >
+          <input
+            aria-invalid="false"
+            class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+            data-variant="default"
+            id="mantine-rg3d4yaws"
+            inputmode="numeric"
+            type="text"
+            value="0"
+          />
+          <div
+            class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+            data-position="right"
+          >
+            <div
+              class="m_95e17d22 mantine-NumberInput-controls"
+            >
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="up"
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-hidden="true"
+                class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                data-direction="down"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="m_7485cace mantine-Container-root"
+      data-size="md"
+      style="--container-size: var(--container-size-md);"
+    >
+      <div
+        class="m_8bffd616 mantine-Flex-root __m__-r1b"
+        style="gap: var(--mantine-spacing-sm); align-items: center; justify-content: flex-start; flex-direction: column;"
+      >
+        <div
+          class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
+        >
+          <label
+            class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
+            for="mantine-aq14g4o8g"
+            id="mantine-aq14g4o8g-label"
+          >
+            Dispense Change
+          </label>
+          <div
+            class="m_6c018570 mantine-Input-wrapper mantine-NumberInput-wrapper"
+            data-variant="default"
+            data-with-right-section="true"
+            style="--input-right-section-width: var(--ni-right-section-width-sm);"
+          >
+            <input
+              aria-invalid="false"
+              class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
+              data-variant="default"
+              id="mantine-aq14g4o8g"
+              inputmode="numeric"
+              type="text"
+              value="0"
+            />
+            <div
+              class="m_82577fc2 mantine-Input-section mantine-NumberInput-section"
+              data-position="right"
+            >
+              <div
+                class="m_95e17d22 mantine-NumberInput-controls"
+              >
+                <button
+                  aria-hidden="true"
+                  class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                  data-direction="up"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <svg
+                    fill="none"
+                    style="transform: rotate(180deg);"
+                    viewBox="0 0 15 15"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+                <button
+                  aria-hidden="true"
+                  class="mantine-focus-auto m_80b4b171 mantine-NumberInput-control m_87cf2631 mantine-UnstyledButton-root"
+                  data-direction="down"
+                  disabled=""
+                  tabindex="-1"
+                  type="button"
+                >
+                  <svg
+                    fill="none"
+                    viewBox="0 0 15 15"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="mantine-focus-auto mantine-active m_77c9d27d mantine-Button-root m_87cf2631 mantine-UnstyledButton-root"
+          style="--button-color: var(--mantine-color-white);"
+          type="button"
+        >
+          <span
+            class="m_80f1301b mantine-Button-inner"
+          >
+            <span
+              class="m_811560b9 mantine-Button-label"
+            >
+              Dispense
+            </span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
