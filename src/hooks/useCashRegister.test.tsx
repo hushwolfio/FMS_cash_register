@@ -81,4 +81,46 @@ describe('useCashRegister', () => {
       1: 6,
     });
   });
+
+  it('should error correctly if the amount is nout enough', () => {
+    const { result } = renderHook(() => useCashRegister());
+
+    act(() => {
+      result.current.setDenomAmount('20', 0);
+      result.current.setDenomAmount('10', 1);
+      result.current.setDenomAmount('5', 0);
+      result.current.setDenomAmount('1', 2);
+    });
+
+    act(() => {
+      result.current.setDesiredAmount(40);
+    });
+
+    act(() => {
+      result.current.dispenseChange();
+    })
+
+    expect(result.current.error).toEqual("There is not enough money in the register, try a lower amount.");
+  });
+
+  it('should error correctly if the denomination is not available', () => {
+    const { result } = renderHook(() => useCashRegister());
+
+    act(() => {
+      result.current.setDenomAmount('20', 2);
+      result.current.setDenomAmount('10', 1);
+      result.current.setDenomAmount('5', 0);
+      result.current.setDenomAmount('1', 2);
+    });
+
+    act(() => {
+      result.current.setDesiredAmount(23);
+    });
+
+    act(() => {
+      result.current.dispenseChange();
+    })
+
+    expect(result.current.error).toEqual("Cannot dispense the exact change with the available denominations. Try a different amount.");
+  });
 });
