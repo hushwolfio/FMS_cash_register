@@ -9,7 +9,7 @@ exports[`DenomGroup > should render 1`] = `
   </style>
   <div
     class="m_8bffd616 mantine-Flex-root __m__-r0"
-    style="gap: var(--mantine-spacing-md); justify-content: center; flex-wrap: wrap; flex-direction: row;"
+    style="gap: var(--mantine-spacing-md); justify-content: center; flex-wrap: wrap;"
   >
     <div
       class="m_e2f5cd4e m_46b77525 mantine-InputWrapper-root mantine-NumberInput-root"
@@ -17,8 +17,8 @@ exports[`DenomGroup > should render 1`] = `
     >
       <label
         class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
-        for="mantine-bf3keclke"
-        id="mantine-bf3keclke-label"
+        for="mantine-e9g0t4qr6"
+        id="mantine-e9g0t4qr6-label"
       >
         Add/Remove $1
       </label>
@@ -32,7 +32,7 @@ exports[`DenomGroup > should render 1`] = `
           aria-invalid="false"
           class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
           data-variant="default"
-          id="mantine-bf3keclke"
+          id="mantine-e9g0t4qr6"
           inputmode="numeric"
           type="text"
           value="1"
@@ -95,8 +95,8 @@ exports[`DenomGroup > should render 1`] = `
     >
       <label
         class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
-        for="mantine-jb17163tz"
-        id="mantine-jb17163tz-label"
+        for="mantine-ckghc9dgp"
+        id="mantine-ckghc9dgp-label"
       >
         Add/Remove $5
       </label>
@@ -110,7 +110,7 @@ exports[`DenomGroup > should render 1`] = `
           aria-invalid="false"
           class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
           data-variant="default"
-          id="mantine-jb17163tz"
+          id="mantine-ckghc9dgp"
           inputmode="numeric"
           type="text"
           value="1"
@@ -173,8 +173,8 @@ exports[`DenomGroup > should render 1`] = `
     >
       <label
         class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
-        for="mantine-0ug19yp05"
-        id="mantine-0ug19yp05-label"
+        for="mantine-n7poi77sk"
+        id="mantine-n7poi77sk-label"
       >
         Add/Remove $10
       </label>
@@ -188,7 +188,7 @@ exports[`DenomGroup > should render 1`] = `
           aria-invalid="false"
           class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
           data-variant="default"
-          id="mantine-0ug19yp05"
+          id="mantine-n7poi77sk"
           inputmode="numeric"
           type="text"
           value="1"
@@ -251,8 +251,8 @@ exports[`DenomGroup > should render 1`] = `
     >
       <label
         class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
-        for="mantine-2o07noige"
-        id="mantine-2o07noige-label"
+        for="mantine-ebiq2j8zt"
+        id="mantine-ebiq2j8zt-label"
       >
         Add/Remove $20
       </label>
@@ -266,7 +266,7 @@ exports[`DenomGroup > should render 1`] = `
           aria-invalid="false"
           class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
           data-variant="default"
-          id="mantine-2o07noige"
+          id="mantine-ebiq2j8zt"
           inputmode="numeric"
           type="text"
           value="1"
@@ -329,8 +329,8 @@ exports[`DenomGroup > should render 1`] = `
     >
       <label
         class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
-        for="mantine-dvp9pyash"
-        id="mantine-dvp9pyash-label"
+        for="mantine-at8b24mnu"
+        id="mantine-at8b24mnu-label"
       >
         Add/Remove $50
       </label>
@@ -344,7 +344,7 @@ exports[`DenomGroup > should render 1`] = `
           aria-invalid="false"
           class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
           data-variant="default"
-          id="mantine-dvp9pyash"
+          id="mantine-at8b24mnu"
           inputmode="numeric"
           type="text"
           value="1"
@@ -407,8 +407,8 @@ exports[`DenomGroup > should render 1`] = `
     >
       <label
         class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
-        for="mantine-owwxzwmtw"
-        id="mantine-owwxzwmtw-label"
+        for="mantine-5y5etyptx"
+        id="mantine-5y5etyptx-label"
       >
         Add/Remove $100
       </label>
@@ -422,7 +422,7 @@ exports[`DenomGroup > should render 1`] = `
           aria-invalid="false"
           class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
           data-variant="default"
-          id="mantine-owwxzwmtw"
+          id="mantine-5y5etyptx"
           inputmode="numeric"
           type="text"
           value="1"

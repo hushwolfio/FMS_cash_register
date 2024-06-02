@@ -24,8 +24,8 @@ export const CashRegister: FC = () => {
 	}
 
 	return (
-		<Stack>
-			<Flex gap="sm" direction="row" justify="center" align="center"><Text c="yellow">Cash Register Total: ${totalAmount}</Text>
+		<Stack gap="sm">
+			<Flex gap="sm" justify="center" align="center"><Text c="yellow">Cash Register Total: ${totalAmount}</Text>
 				<Text fw={500}>{Object.entries(denominations)
 					.map(([key, value]) => `${value}x$${key}`)
 					.join(" ")}</Text>

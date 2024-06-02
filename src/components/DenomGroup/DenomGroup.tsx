@@ -9,7 +9,7 @@ interface DenomGroupProps {
 }
 
 export const DenomGroup: FC<DenomGroupProps> = ({ denominations, setDenomAmount }) => (
-    <Flex gap="md" direction="row" wrap="wrap" justify="center">
+    <Flex gap="md" wrap="wrap" justify="center">
         {Object.keys(denominations).map((denom) => (
             <DenomAdjuster
                 value={denominations[denom]}

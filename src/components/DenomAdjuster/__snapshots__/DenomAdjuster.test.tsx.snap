@@ -13,8 +13,8 @@ exports[`DenomAdjuster > should render 1`] = `
   >
     <label
       class="m_8fdc1311 mantine-InputWrapper-label mantine-NumberInput-label"
-      for="mantine-o39ph7ysh"
-      id="mantine-o39ph7ysh-label"
+      for="mantine-m7l9yhvfu"
+      id="mantine-m7l9yhvfu-label"
     >
       Add/Remove $20
     </label>
@@ -28,7 +28,7 @@ exports[`DenomAdjuster > should render 1`] = `
         aria-invalid="false"
         class="m_8fb7ebe7 mantine-Input-input mantine-NumberInput-input"
         data-variant="default"
-        id="mantine-o39ph7ysh"
+        id="mantine-m7l9yhvfu"
         inputmode="numeric"
         type="text"
         value="1"

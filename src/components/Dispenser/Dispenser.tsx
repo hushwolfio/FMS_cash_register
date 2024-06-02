@@ -1,5 +1,5 @@
 import type { FC } from "react";
-import { Container, Button, NumberInput, Flex, Text } from "@mantine/core";
+import { Container, Button, NumberInput, Stack, Flex, Text } from "@mantine/core";
 import type { Denominations } from "../../types";
 
 interface DispenserProps {
@@ -21,19 +21,19 @@ export const Dispenser: FC<DispenserProps> = ({
 }) => {
     return (
         <Container size="md">
-            <Flex gap="sm" direction="column" justify="flex-start" align="center">
+            <Stack gap="sm" justify="flex-start" align="center">
                 <NumberInput
-                    label="Dispense Change"
+                    label="Amount to dispense"
                     value={desiredAmount}
                     onChange={setDesiredAmount}
                     onFocus={onInputFocus}
                     min={0}
                 />
-                <Button onClick={desiredAmount ? dispenseChange : undefined}>
+                <Button disabled={!desiredAmount} onClick={desiredAmount ? dispenseChange : undefined}>
                     Dispense
                 </Button>
                 {dispensedDenominations && (
-                    <Flex gap="sm" direction="row" justify="flex-start" align="center">
+                    <Flex gap="sm" justify="flex-start" align="center">
                         <Text c="green">Dispensed Change:</Text>
                         <Text fw={500}>
                             {Object.entries(dispensedDenominations)
@@ -43,7 +43,7 @@ export const Dispenser: FC<DispenserProps> = ({
                     </Flex>
                 )}
                 {error && <Text c="red">{error}</Text>}
-            </Flex>
+            </Stack>
         </Container>
     );
 };
