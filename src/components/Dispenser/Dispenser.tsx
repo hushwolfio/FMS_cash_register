@@ -1,6 +1,7 @@
 import type { FC } from "react";
 import { Container, Button, NumberInput, Stack, Flex, Text } from "@mantine/core";
 import type { Denominations } from "../../types";
+import { handleKeyDown } from "../../helper";
 
 interface DispenserProps {
     desiredAmount: string | number;
@@ -28,6 +29,7 @@ export const Dispenser: FC<DispenserProps> = ({
                     onChange={setDesiredAmount}
                     onFocus={onInputFocus}
                     min={0}
+                    onKeyDown={handleKeyDown}
                 />
                 <Button disabled={!desiredAmount} onClick={desiredAmount ? dispenseChange : undefined}>
                     Dispense

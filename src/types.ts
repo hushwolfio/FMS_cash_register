@@ -1,1 +1,1 @@
-export type Denominations = Record<string, number>
+export type Denominations = Record<string, number>;

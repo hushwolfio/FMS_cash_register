@@ -14,10 +14,10 @@ export const useCashRegister = () => {
 		0,
 	);
 
-	const setDenomAmount = (denomination: keyof Denominations, count: string | number) => {
+	const setDenomAmount = (denomination: keyof Denominations, count: number) => {
 		setDenominations((currentState) => ({
 			...currentState,
-			[denomination]: Number(count),
+			[denomination]: count,
 		}));
 	};
 
@@ -42,8 +42,9 @@ export const useCashRegister = () => {
 
 		for (const denomination of DENOMINATIONS_KEYS) {
 			const denom = Number(denomination);
-			const count = Math.min(Math.floor(remaining / denom), availableDenominations[denom]);
-			result[denom] = count;
+			const denominationString = denomination as keyof Denominations;
+			const count = Math.min(Math.floor(remaining / denom), availableDenominations[denominationString]);
+			result[denominationString] = count;
 			remaining -= count * denom;
 		}
 
@@ -58,7 +59,7 @@ export const useCashRegister = () => {
 		setDenominations((currentState) => {
 			const newState = { ...currentState };
 			Object.entries(result).forEach(([denomination, count]) => {
-				newState[Number(denomination)] -= count;
+				newState[denomination as keyof Denominations] -= count;
 			});
 			return newState;
 		});
