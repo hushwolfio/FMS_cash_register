@@ -1,6 +1,5 @@
 import type { FC } from "react";
 import { NumberInput } from "@mantine/core";
-import { handleKeyDown } from "../../helper";
 
 interface ButtonProps {
 	denom: string;
@@ -19,7 +18,8 @@ export const DenomAdjuster: FC<ButtonProps> = ({ denom, value, setDenomAmount })
 			value={value}
 			label={`Add/Remove $${denom}`}
 			onChange={onInputChange}
-			onKeyDown={handleKeyDown}
+			allowDecimal={false}
+			allowNegative={false}
 			min={0}
 			style={{
 				width: 120
