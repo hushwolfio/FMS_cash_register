@@ -59,7 +59,7 @@ export const useCashRegister = () => {
 		setDenominations((currentState) => {
 			const newState = { ...currentState };
 			Object.entries(result).forEach(([denomination, count]) => {
-				newState[denomination as keyof Denominations] -= count;
+				newState[Number(denomination) as keyof Denominations] -= count;
 			});
 			return newState;
 		});

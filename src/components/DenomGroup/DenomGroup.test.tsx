@@ -3,16 +3,15 @@ import { render } from "@testing-library/react";
 import { describe, it, expect, vi } from "vitest";
 import { DenomGroup } from "./DenomGroup";
 import { MantineProvider } from "@mantine/core";
+import type { Denominations } from "../../types";
 
 describe("DenomGroup", () => {
-    const denominations = {
-        "1": 1,
-        "2": 3,
-        "5": 1,
-        "10": 1,
-        "20": 1,
-        "50": 1,
-        "100": 1,
+    const denominations: Denominations = {
+        1: 1,
+        2: 3,
+        5: 1,
+        10: 1,
+        20: 1,
     };
     const setDenomAmountSpy = vi.fn();
     it("should render with denominations", () => {

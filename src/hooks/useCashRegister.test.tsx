@@ -30,7 +30,7 @@ describe('useCashRegister', () => {
     const { result } = renderHook(() => useCashRegister());
 
     act(() => {
-      result.current.setDenomAmount('20', 1);
+      result.current.setDenomAmount(20, 1);
     });
 
     expect(result.current.denominations).toEqual({
@@ -46,10 +46,10 @@ describe('useCashRegister', () => {
     const { result } = renderHook(() => useCashRegister());
 
     act(() => {
-      result.current.setDenomAmount('20', 3);
-      result.current.setDenomAmount('10', 4);
-      result.current.setDenomAmount('5', 5);
-      result.current.setDenomAmount('1', 6);
+      result.current.setDenomAmount(20, 3);
+      result.current.setDenomAmount(10, 4);
+      result.current.setDenomAmount(5, 5);
+      result.current.setDenomAmount(1, 6);
     });
 
     expect(result.current.totalAmount).toBe(20 * 3 + 10 * 4 + 5 * 5 + 1 * 6);
@@ -59,10 +59,10 @@ describe('useCashRegister', () => {
     const { result } = renderHook(() => useCashRegister());
 
     act(() => {
-      result.current.setDenomAmount('20', 3);
-      result.current.setDenomAmount('10', 4);
-      result.current.setDenomAmount('5', 5);
-      result.current.setDenomAmount('1', 6);
+      result.current.setDenomAmount(20, 3);
+      result.current.setDenomAmount(10, 4);
+      result.current.setDenomAmount(2, 5);
+      result.current.setDenomAmount(1, 6);
     });
 
     act(() => {
@@ -76,8 +76,8 @@ describe('useCashRegister', () => {
     expect(result.current.denominations).toEqual({
       20: 1,
       10: 4,
-      5: 5,
-      2: 0,
+      5: 0,
+      2: 5,
       1: 6,
     });
   });
@@ -86,10 +86,10 @@ describe('useCashRegister', () => {
     const { result } = renderHook(() => useCashRegister());
 
     act(() => {
-      result.current.setDenomAmount('20', 0);
-      result.current.setDenomAmount('10', 1);
-      result.current.setDenomAmount('5', 0);
-      result.current.setDenomAmount('1', 2);
+      result.current.setDenomAmount(20, 0);
+      result.current.setDenomAmount(10, 1);
+      result.current.setDenomAmount(5, 0);
+      result.current.setDenomAmount(1, 2);
     });
 
     act(() => {
@@ -107,10 +107,10 @@ describe('useCashRegister', () => {
     const { result } = renderHook(() => useCashRegister());
 
     act(() => {
-      result.current.setDenomAmount('20', 2);
-      result.current.setDenomAmount('10', 1);
-      result.current.setDenomAmount('5', 0);
-      result.current.setDenomAmount('1', 2);
+      result.current.setDenomAmount(20, 2);
+      result.current.setDenomAmount(10, 1);
+      result.current.setDenomAmount(5, 0);
+      result.current.setDenomAmount(1, 2);
     });
 
     act(() => {

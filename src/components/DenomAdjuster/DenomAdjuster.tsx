@@ -1,10 +1,11 @@
 import type { FC } from "react";
 import { NumberInput } from "@mantine/core";
+import type { Denominations } from "../../types";
 
 interface ButtonProps {
-	denom: string;
+	denom: keyof Denominations;
 	value: number;
-	setDenomAmount: (denomination: string, count: number) => void;
+	setDenomAmount: (denomination: keyof Denominations, count: number) => void;
 }
 
 export const DenomAdjuster: FC<ButtonProps> = ({ denom, value, setDenomAmount }) => {
